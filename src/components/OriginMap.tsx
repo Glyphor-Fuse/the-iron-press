@@ -12,7 +12,7 @@ const OriginMap = () => {
         <div className="relative aspect-video w-full bg-iron/20 rounded-sm overflow-hidden flex items-center justify-center">
           {/* Abstract Map Background */}
           <div className="absolute inset-0 opacity-10 grayscale scale-150">
-             <img src="<span className="block"><img src="https://images.pexels.com/photos/592753/pexels-photo-592753.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="A detailed vintage map showcasing global geography with an old paper texture." loading="lazy" /><a href="https://www.pexels.com/photo/world-map-illustration-592753/" target="_blank" rel="noopener noreferrer" className="text-[10px] text-slate-400 block mt-0.5">Photo by Aaditya Arora on Pexels</a></span>" className="w-full h-full object-cover" alt="Map" />
+             <img src="https://images.pexels.com/photos/592753/pexels-photo-592753.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" className="w-full h-full object-cover" alt="Map" />
           </div>
 
           <div className="relative w-full h-full max-w-5xl">

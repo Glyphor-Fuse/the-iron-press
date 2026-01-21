@@ -42,7 +42,7 @@ const Index = () => {
           >
             <div className="aspect-[4/5] overflow-hidden grayscale hover:grayscale-0 transition-all duration-700">
               <img 
-                src="<span className="block"><img src="https://images.pexels.com/photos/34645485/pexels-photo-34645485.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Detailed view of an espresso machine's portafilter and controls, perfect for coffee enthusiasts." loading="lazy" /><a href="https://www.pexels.com/photo/close-up-of-a-professional-espresso-machine-34645485/" target="_blank" rel="noopener noreferrer" className="text-[10px] text-slate-400 block mt-0.5">Photo by Peter Xie on Pexels</a></span>" 
+                src="https://images.pexels.com/photos/34645485/pexels-photo-34645485.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" 
                 alt="The Iron Press Precision" 
                 className="w-full h-full object-cover scale-110 hover:scale-100 transition-transform duration-1000"
               />

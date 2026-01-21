@@ -6,7 +6,7 @@ const Hero = () => {
       {/* Background Mask */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="<span className="block"><img src="https://images.pexels.com/photos/29963700/pexels-photo-29963700.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Symmetrical steel framework at Pier 76, New York City, showcasing urban industrial design." loading="lazy" /><a href="https://www.pexels.com/photo/modern-industrial-design-of-pier-76-in-nyc-29963700/" target="_blank" rel="noopener noreferrer" className="text-[10px] text-slate-400 block mt-0.5">Photo by _ Whittington on Pexels</a></span>" 
+          src="https://images.pexels.com/photos/29963700/pexels-photo-29963700.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" 
           alt="NYC Industrial" 
           className="w-full h-full object-cover opacity-40 grayscale"
         />
