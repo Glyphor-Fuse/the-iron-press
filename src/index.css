@@ -1,1 +1,61 @@
 @import "tailwindcss";
+
+@theme {
+  --color-obsidian: #1A1A1A;
+  --color-brass: #D4AF37;
+  --color-iron: #2D2D2D;
+  
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Inter", sans-serif;
+
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-marquee: marquee 40s linear infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+:root {
+  background-color: var(--color-obsidian);
+}
+
+body {
+  cursor: crosshair;
+}
+
+/* Film Grain Overlay */
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background-image: url("https://grainy-gradients.vercel.app/noise.svg");
+  opacity: 0.04;
+  z-index: 9999;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1px var(--color-brass);
+  color: transparent;
+}
+
+.custom-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1.5rem;
+}
+
+/* Hide scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
